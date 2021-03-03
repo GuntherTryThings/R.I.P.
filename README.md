@@ -20,3 +20,9 @@ A játék futtatásához csak a böngészőre van szükség, a cél az, hogy min
 
 ## Megvalósítás
 Backendnek node.js + socket.io (+ electron ?), frontenden pedig még megbeszélés alatt áll a megvalósítás.
+
+# Összehasonlítás:
+
+## Pozitívumai a hasonló játékokkal szemben:
+- A játék nem igényel telepítést, sem nagy erőforrást
+- A játékban az eltöltendő idő nincs minimalizálva, így 5-10 percre is megéri elindítani
