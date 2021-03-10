@@ -2,6 +2,9 @@
 
 ## Feladat
 Egy olyan discord bot megvalósítása, amely a tárgyak/hallgatrók felvitelével egységesíti a rengeteg különböző felületet, amit egyetemönk oktatói használnak, így mindig mindenki up-to-date tud maradni, különösebb energiabefektetés nélkül. 
+- neptun export .ics olvasása, tárolása
+- felhasználói bevitel egyszerű kezelése
+- értesítések kiküldése
 
 ## Célközönség
 A szoftver azoknak a hallgatóknak könnyítheti meg az életét, akik egy adott egyetemi (nem hivatalos) szerveren jelen vannak.
