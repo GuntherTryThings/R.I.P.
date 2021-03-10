@@ -1,5 +1,8 @@
 # Alapok:
 
+![image](https://user-images.githubusercontent.com/69306235/110645542-58df6b00-81b6-11eb-84b5-d532c8cc6d9b.png)
+
+
 ## Feladat
 Egy olyan discord bot megvalósítása, amely a tárgyak/hallgatrók felvitelével egységesíti a rengeteg különböző felületet, amit egyetemönk oktatói használnak, így mindig mindenki up-to-date tud maradni, különösebb energiabefektetés nélkül. 
 - neptun export .ics olvasása, tárolása
