@@ -5,6 +5,7 @@ Egy olyan discord bot megvalósítása, amely a tárgyak/hallgatrók felvitelév
 - neptun export .ics olvasása, tárolása
 - felhasználói bevitel egyszerű kezelése
 - értesítések kiküldése
+- hallgatók csoportósítása órák alapján
 
 ## Célközönség
 A szoftver azoknak a hallgatóknak könnyítheti meg az életét, akik egy adott egyetemi (nem hivatalos) szerveren jelen vannak.
