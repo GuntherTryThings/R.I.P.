@@ -31,12 +31,12 @@
 |**Command írása a bot-nak**||
 |---|---|
 |Követelmény|Bot elérése|
-|Cél|Különböző parancs kiadása a bot-nak|
+|Cél|Különböző parancsok kiadása a bot-nak|
 |Előfeltétel|Legyen elérhető az adatbázis és a bot|
 |Sikeres lefutás|A rendszer végrehajtja a megadott parancshoz tartozó utasításokat|
 |Sikertelen lefutás|Nem elérhető az adatbázis/Nincs olyan parancs amit végre szeretnénk hajtani|
 |Elsődleges aktor|Felhasználó|
-|Kiváltó esemény|-|
+|Kiváltó esemény|Parancs elküldése|
 |**Fő lépések**||
 |1|A felhasználó ír egy parancsot a bot-nak|
 |2|A bot megkeresi a végrehajtandó parancsot|
