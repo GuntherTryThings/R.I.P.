@@ -28,3 +28,21 @@
 |3|A felhasználó elküldi a bot-nak az ics fájl privát üzenetben|
 
 ---
+|**Command írása a bot-nak**||
+|---|---|
+|Követelmény|Bot elérése|
+|Cél|Különböző parancs kiadása a bot-nak|
+|Előfeltétel|Legyen elérhető az adatbázis és a bot|
+|Sikeres lefutás|A rendszer végrehajtja a megadott parancshoz tartozó utasításokat|
+|Sikertelen lefutás|Nem elérhető az adatbázis/Nincs olyan parancs amit végre szeretnénk hajtani|
+|Elsődleges aktor|Felhasználó|
+|Kiváltó esemény|-|
+|**Fő lépések**||
+|1|A felhasználó ír egy parancsot a bot-nak|
+|2|A bot megkeresi a végrehajtandó parancsot|
+|3|A bot végrehatja a megfelelő utasításokat|
+|**Kiegészítő lépések**||
+|2.1|A bot nem találja a megadott parancsot
+|2.2|A bot értesít a hibáról
+
+---
