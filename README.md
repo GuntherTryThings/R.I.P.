@@ -10,7 +10,7 @@ Egy olyan discord bot megvalósítása, amely a tárgyak/hallgatrók felvitelév
 ## Célközönség
 A szoftver azoknak a hallgatóknak könnyítheti meg az életét, akik egy adott egyetemi (nem hivatalos) szerveren jelen vannak.
 
-# Cél
+## Cél
 A szoftver célja a discordot aktívan használó hallgatók életének megkönnyítése.
 
 ## Feltételek
@@ -19,7 +19,7 @@ A szerveren csak a Pannon Egyetem hallgatói lehetnek jelen, így ez volna az eg
 ## Megvalósítás
 Node.js a discord API kombinálásával
 
-# Összehasonlítás:
+## Összehasonlítás:
 Jelenleg nem létezik ilyen, vagy ehhez hasonló bot.
 
 ## Miért érdemes megvalósítani?
