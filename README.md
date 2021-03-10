@@ -1,28 +1,25 @@
 # Alapok:
 
-## Genre
-Az alap elképzelés egy ARPG, MMORP/RPG elemekkel. A játékosnak egy act-okra bontott történeten kell végigmennie, hogy utána az endless endgame-et tudja farmolni, ezzel erősítve a karakterét.
-- Diablo
+## Feladat
+Egy olyan discord bot megvalósítása, amely a tárgyak/hallgatrók felvitelével egységesíti a rengeteg különböző felületet, amit egyetemönk oktatói használnak, így mindig mindenki up-to-date tud maradni, különösebb energiabefektetés nélkül. 
 
-![image](https://user-images.githubusercontent.com/69306235/109829484-de569e80-7c3d-11eb-92bf-4dd3ee78ba58.png)
-- Path of Exile
+## Célközönség
+A szoftver azoknak a hallgatóknak könnyítheti meg az életét, akik egy adott egyetemi (nem hivatalos) szerveren jelen vannak.
 
-![image](https://user-images.githubusercontent.com/69306235/109829572-f2020500-7c3d-11eb-9661-9a5f73ff713d.png)
+# Cél
+A szoftver célja a discordot aktívan használó hallgatók életének megkönnyítése.
 
-
-## Grafika
-A grafikát a korai pokemon játékok (red/blue (GBA)) ihlette, e mentén tervezünk elindulni
-
-![image](https://user-images.githubusercontent.com/69306235/109829883-3ab9be00-7c3e-11eb-81ba-f6692b04ece4.png)
-
-## Környezet
-A játék futtatásához csak a böngészőre van szükség, a cél az, hogy minél kevesebb erőforrást igényeljen.
+## Feltételek
+A szerveren csak a Pannon Egyetem hallgatói lehetnek jelen, így ez volna az egyetlen előfeltétel.
 
 ## Megvalósítás
-Backendnek node.js + socket.io (+ electron ?), frontenden pedig még megbeszélés alatt áll a megvalósítás.
+Node.js a discord API kombinálásával
 
 # Összehasonlítás:
+Jelenleg nem létezik ilyen, vagy ehhez hasonló bot.
 
-## Pozitívumai a hasonló játékokkal szemben:
-- A játék nem igényel telepítést, sem nagy erőforrást
-- A játékban az eltöltendő idő nincs minimalizálva, így 5-10 percre is megéri elindítani
+## Miért érdemes megvalósítani?
+A hallgatók a távoktatás alatt nehezen tudják követni, hogy mikor, miből, mikorra kell leadni valamit, vagy éppen milyen órán kéne lenniük. A bot egy adatbázisban eltárolná a felhasználók tárgyait, és ha már csak egy felhasználó felvisz egy beadandót, mindenkit tud értesíteni a bot a határidőről.
+
+## A csapat motivációja
+A fő motiváció az, hogy a rengeteg felület, amin az órák/beadandók trackelése megy, nem követhető, és nincs egységesítve.
