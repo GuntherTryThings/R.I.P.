@@ -1,3 +1,4 @@
 {
-    "prefix": "$"
+    "PREFIX": "$",
+    "DEVELOPER_PREFIX": "$dev"
 }
