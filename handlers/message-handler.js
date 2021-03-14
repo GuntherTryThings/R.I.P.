@@ -3,9 +3,9 @@ const { logger } = require('../utilities/logger');
 
 module.exports = async (userMessage, client) => {
     if (!userMessage.author.bot) {
-        if (userMessage.content.startsWith(PREFIX)) await tryToExecuteCommand(userMessage, PREFIX, 'user-commands');
-        else if (userMessage.content.startsWith(DEVELOPER_PREFIX))
+        if (userMessage.content.startsWith(DEVELOPER_PREFIX))
             await tryToExecuteCommand(userMessage, DEVELOPER_PREFIX, 'developer-commands', client);
+        else if (userMessage.content.startsWith(PREFIX)) await tryToExecuteCommand(userMessage, PREFIX, 'user-commands');
     }
 };
 
