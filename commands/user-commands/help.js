@@ -10,7 +10,7 @@ function generateHelp() {
             fields: [
                 {
                     name: 'Adminisztráció',
-                    value: '~~`$register [neptun] [name]` - Regisztráció a bot adatbázisába~~'
+                    value: '`$register NEPTUN Vezeteknev Keresztnev/nevek` - Regisztráció a bot adatbázisába'
                 },
                 {
                     name: 'Infó',
