@@ -1,6 +1,6 @@
 {
   "name": "pannon-bot",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "todo",
   "main": "bot.js",
   "scripts": {
@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "discord.js": "^12.5.1",
+    "mysql2": "^2.2.5",
     "sequelize": "^6.5.0",
     "winston": "^3.3.3"
   }

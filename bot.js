@@ -7,8 +7,13 @@ const userMessageHandler = require('./handlers/message-handler');
 const userJoin = require('./activites/userJoin');
 const { logger } = require('./utilities/logger');
 
+const sequelize = require('./database/sequelize');
+const defineDatabaseConnections = require('./database/connection');
+
 client.once('ready', async () => {
     logger.info(`Bot started`);
+    sequelize.databaseConnect();
+    await defineDatabaseConnections();
 });
 
 client.on('guildMemberAdd', async (member) => {

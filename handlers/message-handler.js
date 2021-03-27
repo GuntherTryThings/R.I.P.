@@ -1,11 +1,15 @@
 const { PREFIX, DEVELOPER_PREFIX } = require('../config/config.json');
+const User = require('../database/models/user');
 const { logger } = require('../utilities/logger');
 
 module.exports = async (userMessage, client) => {
     if (!userMessage.author.bot) {
-        if (userMessage.content.startsWith(DEVELOPER_PREFIX))
-            await tryToExecuteCommand(userMessage, DEVELOPER_PREFIX, 'developer-commands', client);
-        else if (userMessage.content.startsWith(PREFIX)) await tryToExecuteCommand(userMessage, PREFIX, 'user-commands');
+        if (userMessage.content.startsWith(DEVELOPER_PREFIX)) {
+            const user = await User.findOne({ where: { discordId: userMessage.author.id, isDev: 1 } });
+            if(user)
+                await tryToExecuteCommand(userMessage, DEVELOPER_PREFIX, 'developer-commands', client);
+            else return userMessage.channel.send('Sajnos nincs jogosultságod ehhez a parancshoz.');
+        } else if (userMessage.content.startsWith(PREFIX)) await tryToExecuteCommand(userMessage, PREFIX, 'user-commands');
     }
 };
 
