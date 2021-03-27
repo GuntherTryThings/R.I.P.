@@ -3,7 +3,7 @@ const Sequelize = require('sequelize');
 const Op = Sequelize.Op;
 
 module.exports = async (message) => {
-    if(message.arguments && message.arguments.length >= 3) {
+    if(message.arguments && message.arguments.length >= 3 && message.arguments[0].length == 6) {
         const neptun = message.arguments[0];
         let name = '';
         for(let i = 1; i < message.arguments.length; i++) {
@@ -33,5 +33,5 @@ module.exports = async (message) => {
             message.channel.send('Már korábban regisztráltál!');
     }
     else
-        console.log("Hibás bevitel");
+        message.channel.send('Hibás bevitel');
 };
