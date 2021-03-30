@@ -4,6 +4,7 @@ const CourseClass = require('../../classes/course');
 const Course = require('../../database/models/course');
 const UserCourse = require('../../database/models/usercourse');
 const User = require('../../database/models/user');
+const { logger } = require('../../utilities/logger');
 
 
 module.exports = async (message) => {
@@ -81,6 +82,8 @@ async function executeICSImport(user, message) {
                 message.channel.send('Sikeres bevitel!');
             });
         });
+    }).on("error", (err) => {
+        logger.error(err);
     });
 }
 
