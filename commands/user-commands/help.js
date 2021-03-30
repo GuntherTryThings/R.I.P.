@@ -10,13 +10,13 @@ function generateHelp() {
             fields: [
                 {
                     name: 'Adminisztráció',
-                    value: '`$register NEPTUN Vezeteknev Keresztnev/nevek` - Regisztráció a bot adatbázisába'
+                    value: '`$register NEPTUN Vezeteknev Keresztnev/nevek` - Regisztráció a bot adatbázisába\n'+
+                        '`$calendar [csatolt file: neptunból kiexportált .ics]` - Órarend feltöltése a bot adatbázisába, és kapcsolatok létrehozása'
                 },
                 {
                     name: 'Infó',
                     value:
-                        '`$help` - Ez az embed\n' +
-                        '~~`$info` - Információk a botról~~',
+                        '`$help` - Ez az embed\n'
                 },
             ],
         },

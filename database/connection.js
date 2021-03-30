@@ -12,5 +12,5 @@ module.exports = async () => {
     Course.hasMany(Assignment, { constraints: true, onDelete: 'CASCADE', foreignKey: 'courseId' });
     Assignment.belongsTo(Course, { constraints: false });
 
-    await sequelize.sync({ alter: true });
+    //await sequelize.sync({ alter: true });
 };

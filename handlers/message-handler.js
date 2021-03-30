@@ -23,6 +23,7 @@ function formatUserMessage(userMessage, prefix, client) {
         author: userMessage.author,
         member: userMessage.member,
         mentions: userMessage.mentions,
+        attachments: userMessage.attachments,
         client,
     };
 }

@@ -1,6 +1,6 @@
 {
   "name": "pannon-bot",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "todo",
   "main": "bot.js",
   "scripts": {
