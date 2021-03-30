@@ -78,6 +78,7 @@ async function executeICSImport(user, message) {
                         await newCourse(user, course);
                 }
                 fs.unlink(`./downloads/${fileName}.ics`, (error) => { if(error) throw error; });
+                message.channel.send('Sikeres bevitel!');
             });
         });
     });

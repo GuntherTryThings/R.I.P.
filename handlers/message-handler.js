@@ -43,5 +43,10 @@ async function executeCommand(message, lastFolderInPath) {
 }
 
 function handleCommandError(message, error) {
-    logger.log('error', error.message);
+    if(error.message.startsWith('Cannot find module'))
+        message.channel.send('Vagy nincs ilyen command, vagy elírtad.');
+    else {
+        logger.log('error', error.message);
+        message.channel.send('Valami hiba történt, kérlek értesítsd az admint!');
+    }
 }
