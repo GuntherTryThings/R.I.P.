@@ -35,8 +35,7 @@ async function findOneDay(dayIdx, title, authorId, inline, color) {
         const c = userCourse.course;
         fields.push({
             name: c.name,
-            value: `Kezdet: ${c.start}, Hossz: ${c.duration} óra\n` +
-            `Oktató: ${c.teacher}\nNeptun: (${c.neptun})`,
+            value: `Kezdet: ${c.start}\nHossz: ${c.duration} óra\nOktató: ${c.teacher}\nNeptun: (${c.neptun})`,
             inline
         });
     }
