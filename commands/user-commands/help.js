@@ -6,12 +6,17 @@ function generateHelp() {
     return {
         embed: {
             title: 'Parancsok listája',
-            color: 12604671,
+            color: 9896082,
             fields: [
                 {
                     name: 'Adminisztráció',
                     value: '`$register NEPTUN Vezeteknev Keresztnev/nevek` - Regisztráció a bot adatbázisába\n'+
                         '`$calendar [csatolt file: neptunból kiexportált .ics]` - Órarend feltöltése a bot adatbázisába, és kapcsolatok létrehozása'
+                },
+                {
+                    name: 'Lekérdezések',
+                    value: '`$timetable` - Órarend lekérdezése egy hétre\n'+
+                        '`$timetable --today` - Órarend lekérdezése a mai napra'
                 },
                 {
                     name: 'Infó',
