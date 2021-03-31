@@ -1,0 +1,20 @@
+{
+    "Template": {
+        "Újdonság(ok):": {
+            "0": ""
+        },
+        "Módosítás(ok):": {
+            "0": ""
+        },
+        "Javítás(ok):": {
+            "0": ""
+        }
+    },
+    "0.4.0": {
+        "Újdonság(ok):": {
+            "0": "`$timetable` felhasználói parancs",
+            "1": "`$timetable --today` felhasználói parancs",
+            "2": "`$dev public-log` fejlesztői parancs"
+        }
+    }
+}

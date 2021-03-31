@@ -24,6 +24,7 @@ function formatUserMessage(userMessage, prefix, client) {
         member: userMessage.member,
         mentions: userMessage.mentions,
         attachments: userMessage.attachments,
+        guild: userMessage.guild,
         client,
     };
 }
