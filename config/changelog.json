@@ -13,7 +13,7 @@
     "0.5.0": {
         "Újdonság(ok):": {
             "0": "`$dev backup --create` fejlesztői parancs",
-            "1": "`$dev backup --get` felhasználói parancs"
+            "1": "`$dev backup --get` fejlesztői parancs"
         }
     },
     "0.4.0": {

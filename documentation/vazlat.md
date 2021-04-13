@@ -30,6 +30,7 @@
 - Tokenek problémájának megoldása
 - Alapkód megírása
 - Tesztelés
+- ppt elkészítése
 
 ## Kérdések:
 - 3 Regex
