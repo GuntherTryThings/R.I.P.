@@ -1,6 +1,7 @@
 const User = require('./models/user');
 const Course = require('./models/course');
 const UserCourse = require('./models/usercourse');
+const Assignment = require('./models/assignment');
 const { sequelize } = require('./sequelize');
 
 module.exports = async () => {
