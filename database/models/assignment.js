@@ -2,16 +2,12 @@ const { DataTypes } = require('sequelize');
 const { sequelize } = require('../sequelize');
 
 module.exports = sequelize.define('assignment', {
-    name: {
-        type: DataTypes.STRING,
-        allowNull: false
-    },
     description: {
         type: DataTypes.TEXT,
-        allowNull: false
+        allowNull: false,
     },
     date: {
-        type: DataTypes.DATE,
+        type: DataTypes.DATEONLY,
         allowNull: false
     },
     time: {
@@ -20,6 +16,10 @@ module.exports = sequelize.define('assignment', {
     },
     timeType: {
         type: DataTypes.BOOLEAN,
+        allowNull: false
+    },
+    courseNeptun: {
+        type: DataTypes.STRING,
         allowNull: false
     }
 });

@@ -10,6 +10,14 @@
             "0": ""
         }
     },
+    "0.6.0": {
+        "Újdonság(ok):": {
+            "0": "`$mycourses` felhasználói parancs",
+            "1": "`$myevents` felhasználói parancs",
+            "2": "`$deadline TÁRGYNEPTUN, yyyy-mm-dd, hh:mm, Leírás` felhasználói parancs",
+            "3": "`$zh TÁRGYNEPTUN, yyyy-mm-dd, hh:mm, Leírás` felhasználói parancs"
+        }
+    },
     "0.5.0": {
         "Újdonság(ok):": {
             "0": "`$dev backup --create` fejlesztői parancs",
